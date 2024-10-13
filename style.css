@@ -1,0 +1,374 @@
+* {
+  padding: 0;
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+header {
+  width: 98.9vw;
+  position: fixed;
+  z-index: 3;
+}
+.navbar {
+  height: 70px;
+  background-color: #0f1111;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.navlogo {
+  width: 180px;
+  height: 55px;
+  padding: 4px;
+  font-size: 12px;
+}
+.logo {
+  background-image: url("asset/LOGOW.png");
+  color: white;
+  height: 53px;
+  width: 100%;
+  background-size: cover;
+}
+.border {
+  border: 2px solid transparent;
+}
+.border:hover {
+  border: 1px solid white;
+}
+.ind {
+  color: #cccccc;
+  font-size: 12px;
+  margin-top: 3px;
+  margin-left: 27px;
+  line-height: 0px;
+}
+.india {
+  margin-top: 8px;
+}
+.ind2 {
+  font-size: 14px;
+  margin-left: 12px;
+}
+.add2 {
+  display: flex;
+  align-items: center;
+
+  margin-top: 8px;
+}
+.fa-location-dot {
+  margin-left: 2px;
+}
+.navsear {
+  display: flex;
+  justify-content: space-evenly;
+  width: 631px;
+  height: 40px;
+  background-color: white;
+  border: 1px solid white;
+  border-radius: 4px;
+  margin-left: 2px;
+}
+.insear {
+  width: 100%;
+  font-size: 20px;
+  border: none;
+  margin-right: 2px;
+}
+.selects {
+  width: 52px;
+  padding: 2px;
+  border-top-left-radius: 4px;
+  border-bottom-left-radius: 4px;
+  background-color: #e6e6e6;
+  text-align: center;
+  border: none;
+}
+.btn {
+  width: 50px;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  border-top-right-radius: 4px;
+  border-bottom-right-radius: 4px;
+  align-items: center;
+  background-color: rgb(255, 149, 0);
+  color: #0f1111;
+}
+.fa-magnifying-glass {
+  font-size: 25px;
+}
+.navcarts {
+  background-color: #0f1111;
+  color: #e6e6e6;
+  border: none;
+}
+.navsear:hover {
+  border: 4px solid orange;
+}
+.navcart2 {
+  line-height: 13px;
+}
+.sp1 {
+  font-size: 12px;
+}
+.sp2 {
+  font-size: 14px;
+  font-weight: bold;
+}
+.fa-cart-shopping {
+  font-size: 25px;
+}
+.sp3 {
+  font-size: 15px;
+  font-weight: bold;
+}
+.nav2 {
+  width: 100%;
+  height: 39px;
+  background-color: #232f3e;
+  color: #ffffff;
+  display: flex;
+  justify-content: space-evenly;
+}
+.menuburger {
+  width: 59px;
+}
+.displayflex {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.minnav {
+  display: flex;
+  width: 70%;
+}
+.menuburger span {
+  margin-left: 5px;
+  font-weight: bold;
+}
+.ms2 {
+  background-color: #232f3e;
+  color: white;
+  border: none;
+  height: auto;
+}
+
+.ms3 {
+  width: auto;
+  height: auto;
+  padding-left: 7px;
+  padding-right: 7px;
+}
+.ms4 {
+  width: 418px;
+  background-image: url("asset/amazonprime.jpg");
+  background-size: cover;
+}
+.section {
+  background-image: url("asset/main.jpg");
+  width: 99.7%;
+  height: 510px;
+  border: 3px solid red;
+  background-size: cover;
+  position: relative;
+  top: 109px;
+}
+.shoptoy {
+  width: 99%;
+  height: auto;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  background-color: #e2e7e6;
+  flex-wrap: wrap;
+}
+.box {
+  width: 20%;
+  height: 420px;
+  background-color: white;
+  color: black;
+  padding-top: 20px;
+  padding-bottom: 15px;
+}
+.header {
+  margin: 21px;
+}
+.imagesection {
+  margin: 17px;
+  width: 267px;
+  height: 139px;
+
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.spanbox {
+  color: #0f1111;
+  font-size: 12px;
+}
+.imgsec1 {
+  width: 125px;
+  height: 138px;
+}
+.imgsec {
+  background-size: cover;
+  width: 125px;
+  height: 102px;
+}
+.footersection {
+  color: rgb(22, 181, 22);
+  margin-left: 22px;
+  cursor: pointer;
+}
+.signinsection {
+  width: 100%;
+  background-color: white;
+  height: 165px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.signininner {
+  width: 100%;
+  height: 125px;
+  border: 1px solid #0f1111;
+  background-color: white;
+  border-radius: 2px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.signinpara {
+  font-size: 13px;
+  margin-left: 19px;
+}
+.singina a {
+  text-decoration: none;
+  color: #007185;
+  font-size: 11px;
+}
+.singina {
+  margin-left: 19px;
+  font-size: 11px;
+}
+.signinbutton {
+  cursor: pointer;
+  width: 230px;
+  height: 28px;
+  color: black;
+  font-weight: bold;
+  background-color: rgb(190, 190, 27);
+  text-align: center;
+  border-radius: 20px;
+  padding-top: 8px;
+}
+.signinbutton {
+  margin: 12px;
+}
+.footeroanel1 {
+  width: 100%;
+  height: 50px;
+  background-color: #28415f;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 0px;
+}
+.footeroanel1 a {
+  text-decoration: none;
+  color: white;
+}
+.footeroanel1 :hover {
+  background-color: #3d75b9;
+}
+.footbox {
+  width: 100%;
+  background-color: #232f3e;
+  display: flex;
+  justify-content: center;
+  padding-top: 33px;
+  border-bottom: 1px solid whitesmoke;
+}
+.footboxinner {
+  width: 80%;
+  display: flex;
+  justify-content: space-evenly;
+  color: white;
+  margin: 22px;
+}
+.footerpanel2 ul {
+  list-style-type: none;
+}
+.footerpanel2 ul li a {
+  text-decoration: none;
+  color: #dddddd;
+  font-size: 14px;
+}
+.footerpanel2 ul li {
+  margin: 7px;
+}
+.footerpanel2 ul li a:hover {
+  border-bottom: 1px solid white;
+}
+.footerpanel3 {
+  width: 100px;
+}
+.footbox2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #232f3e;
+  color: white;
+}
+.footimg {
+  background-image: url("asset/LOGOW.png");
+  width: 250px;
+  height: 70px;
+  background-size: cover;
+  margin: 22px;
+}
+.footlang {
+  border: 0.1px solid white;
+  padding: 12px;
+  margin-left: 22px;
+}
+.footflag {
+  border: 0.1px solid white;
+  padding: 12px;
+  margin-left: 22px;
+}
+.footbox3 {
+  background-color: #0f1111;
+  color: #cccccc;
+}
+.footbox3table {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.footbox3tablecol ul li {
+  list-style-type: none;
+}
+.footbox3tablecol ul li a {
+  text-decoration: none;
+  color: #cccccc;
+}
+.fontsize {
+  font-size: 12px;
+}
+.footbox3tablecol {
+  margin-top: 12px;
+
+  margin-bottom: 12px;
+}
+.footbox4 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #0f1111;
+  color: #cccccc;
+}
+.footbox4table span {
+  text-align: center;
+}

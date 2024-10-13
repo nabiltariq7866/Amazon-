@@ -1,0 +1,116 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.d2d {
+  width: 100px;
+  height: 80px;
+  animation: examples 5s linear infinite;
+  position: relative;
+  font-size: 40px;
+  color: white;
+  text-align: center;
+  padding: 15px;
+  -webkit-box-reflect: below 90px;
+}
+
+@keyframes examples {
+  0% {
+    left: 0px;
+    top: 0px;
+  }
+
+  90% {
+    left: 90vw;
+    top: 0px;
+  }
+}
+.body {
+  display: flex;
+  justify-content: center;
+}
+.main {
+  display: inline-block;
+  position: relative;
+}
+.tooltip {
+  display: none;
+  position: absolute;
+
+  top: 115%;
+  margin-right: 5px;
+  background-color: black;
+  color: white;
+  width: 120px;
+  text-align: center;
+  border-radius: 5px;
+  padding: 5px 0px;
+}
+.main:hover .tooltip {
+  display: block;
+}
+.main .tooltip::after {
+  content: " ";
+  position: absolute;
+  left: 45%;
+  bottom: 100%;
+  border-width: 5px;
+  border-style: solid;
+  border-color: transparent transparent black transparent;
+}
+.main2 {
+  display: flex;
+  justify-content: center;
+}
+.button {
+  display: inline-block;
+  margin: 12px;
+  padding: 12px;
+  background-color: transparent;
+  border: 3px solid #04aa6d;
+  color: black;
+  font-size: large;
+  transition-duration: 0.4s;
+}
+
+.button1 {
+  border: 3px solid #04aa6d;
+}
+.button1:hover {
+  background-color: #04aa6d;
+  color: white;
+}
+.button2 {
+  border: 3px solid #008cba;
+}
+.button2:hover {
+  background-color: #008cba;
+  color: white;
+}
+.button3 {
+  border: 3px solid #f44336;
+}
+.button3:hover {
+  background-color: #f44336;
+  color: white;
+}
+
+.button4 {
+  border: 3px solid #e7e7e7;
+  opacity: 0.5;
+  cursor: not-allowed;
+}
+.button4:hover {
+  background-color: #e7e7e7;
+  color: black;
+}
+.button5 {
+  border: 3px solid #555555;
+}
+.button5:hover {
+  background-color: #555555;
+  color: white;
+  box-shadow: 3px 3px 5px #888888;
+}
